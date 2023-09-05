@@ -1,0 +1,217 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: black;
+    border-radius: 25px 15px;
+    padding: 10px;
+
+}
+.logo img{
+    max-width: 350px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li{
+    font-weight: bold;
+    
+}
+
+/* Estilo del hero */
+.hero{
+    background-image: url(/img/Fondo\ de\ hero.svg);
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0px;
+    color: white;
+}
+
+.hero-content h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-content p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button{
+    background-color: azure;
+    color: black;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.cta-button:hover{
+    background-color: lightsalmon;
+    border-radius: 25px;
+}
+
+/* Estilo de los servicios */
+.servicios{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.lista{
+    display: flex;
+    justify-content: space-around;
+}
+
+.service{
+    margin: 20px;
+}
+
+.service img{
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+/* Estilos de Nosotros */
+.nosotros{
+    color: white;
+    text-align: center;
+    padding: 40px 0px;
+    margin: 0 auto;
+    max-width: auto;
+    background-size: cover;
+    background-image: url(/img/Fondo\ de\ nosotro.svg);
+}
+
+/* Estilos para la seccion de testimonios */
+.testimonio{
+    background-color: #f9f9f9;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.testimonial-slider{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial{
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    margin: 0px 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 15px;
+}
+
+.testimonial img{
+    max-width: 100px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.testimonial p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.client-name{
+    font-weight: bold;
+    color: #333;
+    font-size: 14px;
+}
+
+/* Estilo de contacto */
+.contacto{
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    text-align: center;
+}
+
+form{
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group{
+   text-align: center;
+   margin-bottom: 20px;
+   margin-right: 20px;
+}
+
+label{
+    font-weight: bold;
+    color:#333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.submit-button:hover{
+    background-color: #0056b3;
+}
+
+/* Estilos del pie de pagina */
+.footer{
+    background-color: #333;
+    background-image: url(/img/wave.svg);
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+}

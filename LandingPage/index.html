@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/Logo de Telematica black.svg" alt="Logo de Telematica">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#testimonio">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Bienvenido a nuestros servicios de Telemática</h1>
+            <p>Soluciones innovadoras para la comunicación y trasnferencias de datos.</p>
+            <a class="cta-button" href="#contacto">Contáctanos</a>
+        </div>
+    </section>
+    <section class="servicios" id="servicios">
+        <h2>Nuestro Servicios</h2>
+        <div class="lista">
+            <div class="service">
+                <img src="img/undraw_shared_goals_re_jvqd.svg" alt="Servicio 1">
+                <h3>Servicio 1</h3>
+                <p>Lorem ipsum sit amet, consectetur adipiscing elit. Consequunter similique partiqar accusantium</p>
+            </div>
+            <div class="service">
+                <img src="img/undraw_co_workers_re_1i6i.svg" alt="Servicio 2">
+                <h3>Servicio 2</h3>
+                <p>Lorem ipsum sit amet, consectetur adipiscing elit. Consequunter similique partiqar accusantium</p>
+            </div>
+            <div class="service">
+                <img src="img/undraw_team_work_k-80-m.svg" alt="Servicio 3">
+                <h3>Servicio 3</h3>
+                <p>Lorem ipsum sit amet, consectetur adipiscing elit. Consequunter similique partiqar accusantium</p>
+            </div>
+        </div>
+    </section>
+    <section class="nosotros" id="nosotros">
+        <h2>Nosotros</h2>
+        <p>Somos una empresa lider en soluciones de telematica con una trayectoria exitosa en....</p>
+    </section>
+    <section class="testimonio" id="testimonio">
+        <h2>Testimonios</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial">
+                <img src="img/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="Cliente 2">
+                <p>Sed pretium, quam non fegit dui libero behivulo leo, at ulticie eros elit eu ex.</p>
+                <p class="client-name">- Nicola Sam</p>
+            </div>
+            <div class="testimonial">
+                <img src="img/nicolas-horn-MTZTGvDsHFY-unsplash.jpg" alt="Cliente 1">
+                <p>Lorem ipsum dolor sir amet, consectutur adispiscing elit. Nullam d felin aet didctum sodales.</p>
+                <p class="client-name">- Michael Smith</p>
+            </div>
+            <div class="testimonial">
+                <img src="img/vicky-hladynets-C8Ta0gwPbQg-unsplash.jpg" alt="Cliente 3">
+                <p>Vivamus loreast, spaine it mattis interdmin, ninc libe ulinacorper orclm, non dapibus purus diam non urna.</p>
+                <p class="client-name">- Vicky Harold</p>
+            </div>
+        </div>
+    </section>
+    <section class="contacto" id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Listo para discutir tus necesidades de telemática?</p>
+        <a href="mailto:info@telematica.com" class="cta-button">Enviar un correo</a>
+        <br/>
+        <h3>ó</h3>
+        <from action="procesor.php" method="post">
+            <h2>Dejanos un mensaje</h2>
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Enviar mensaje</button>
+        </from>
+    </section>
+    <section class="footer" id="footer">
+        <p>&copy; 2023 Telemática. Todos los derechos reservados.</p>
+    </section>
+</body>
+</html>
